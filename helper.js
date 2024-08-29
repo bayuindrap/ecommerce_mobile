@@ -1,1 +1,1 @@
-export const API_URL ='http://192.168.1.12:2012'
+export const API_URL ='https://jserver-ecommerce19.herokuapp.com'

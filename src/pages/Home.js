@@ -325,10 +325,11 @@ const desain = StyleSheet.create({
         width: wp(30),
         borderRadius: 20,
         marginTop: hp(3),
-        backgroundColor: '#4FA4F3',
+        backgroundColor: '#1B1464',
+        color: "yellow"
     },
     titleActive: {
-        color: 'white'
+        color: 'yellow'
     },
     titleOff: {
         color: 'grey'

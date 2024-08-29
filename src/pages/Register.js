@@ -34,7 +34,7 @@ const RegisterPage = (props) => {
 
     const onBtRegister = async () => {
 
-        // axios.post(`${API_URL}/dataUser`, {
+        // axios.post(`${API_URL}/users`, {
         //     username: username,
         //     email: email,
         //     password: password,
@@ -46,7 +46,7 @@ const RegisterPage = (props) => {
         // }).catch ((err) => {
         //     console.log(err)
         // })
-        let res = await dispatch (onRegister(email, username, password))
+        let res = await dispatch (onRegister(username, email, password))
         if (res.success > 0) {
             Alert.alert(null, `${username} , Registrasi Berhasil✔` ,
             [
@@ -62,17 +62,7 @@ const RegisterPage = (props) => {
     
     }
 
-    // if(respon.success>0){
-    //     Alert.alert("Success", "Registration Successfully",
-    //     [
-    //         {
-    //             text:"To Login Page",
-    //             onPress:()=>props.navigation.dispatch(StackActions.replace("Login"))
-    //         }
-    //     ])
-    // }else{
-    //     Alert.alert("Belom Lengkap")
-    // }
+   
 
 
     return (

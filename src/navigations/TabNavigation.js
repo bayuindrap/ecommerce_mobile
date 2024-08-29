@@ -19,7 +19,7 @@ const TabNavigation = (props) => {
                             iconName = "home"
                         }else if (route.name == "Cart") {
                             iconName = "shopping-cart"
-                        }else if (route.name == "Profle") {
+                        }else if (route.name == "Profile") {
                             iconName = "user"
                         }
                         
